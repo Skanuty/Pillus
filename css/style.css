@@ -50,7 +50,7 @@ ul a:hover{
 }
 
 /* À LA UNE */
-section {
+section, aside {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -92,6 +92,25 @@ section .parent img{
 section .parent .enfant{
     position: relative;
     width: 30%;
+}
+
+/* ASIDE */
+aside{
+    border-radius: 15px;
+    padding: 20px;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+    background-color: #bc181e;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+aside a:hover{
+    background-color: transparent;
+    color: #961318;
 }
 
 /* FOOTER */
